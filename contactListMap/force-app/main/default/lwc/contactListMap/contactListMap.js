@@ -6,7 +6,7 @@ import delSelectedCons from '@salesforce/apex/contactListMapController.deleteCon
 import getContacsCount from '@salesforce/apex/contactListMapController.getContacsCount'; 
  
 
-                    // importing to show toast notifictions
+            // Arup Test: importing to show toast notifictions
 import {ShowToastEvent} from 'lightning/platformShowToastEvent';
 
                     // importing to refresh the apex if any record changes the datas
