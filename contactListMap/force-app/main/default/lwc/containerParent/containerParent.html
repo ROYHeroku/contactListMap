@@ -1,0 +1,10 @@
+<template>
+        <lightning-card>  
+                <c-contact-list-map currentpage={page} onrecordsload={handleRecordsLoad} pagesize={pagesize}></c-contact-list-map>  
+                <div class="slds-m-around_medium">  
+                  <c-paginator-buttons onprevious={handlePrevious} onnext={handleNext} onfirst={handleFirst}  
+                    onlast={handleLast} currentpage={page} totalrecords={totalrecords} pagesize={pagesize}>  
+                  </c-paginator-buttons>  
+                </div>  
+              </lightning-card> 
+</template>
